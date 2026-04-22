@@ -36,9 +36,9 @@ bool IsPalindromeNumber(int number)
 int main()
 {
     if (IsPalindromeNumber(ReadPositiveNumber("Enter a positive number : ")))
-        cout << "Yes, it is a Palindrome Number";
+        cout << "Yes, it is a Palindrome Number\n";
     else
-        cout << "No, it is not a Palindrome Number";
+        cout << "No, it is not a Palindrome Number\n";
 
     return 0;
 }
