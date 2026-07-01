@@ -63,7 +63,8 @@ int main()
     cout << "Original Array: ";
     PrintArray(Array, ArrayLength);
 
-    cout << "Number " << NumToCheck << "is repeated ";
-    cout << TimesRepeated(Array, ArrayLength, NumTocheck) << "time(s)" << endl;
+    cout << "Number " << NumToCheck << " is repeated ";
+    cout << TimesRepeated(Array, ArrayLength, NumToCheck) << " time(s)" << endl;
+
     return 0;
 }
