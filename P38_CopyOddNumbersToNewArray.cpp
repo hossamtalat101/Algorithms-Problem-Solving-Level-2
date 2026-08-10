@@ -38,7 +38,7 @@ void AddArrayElements(int Number, int Array[100], int &ArrayLength)
     Array[ArrayLength - 1] = Number;
 }
 
-void CopyArrayUsingAddArrayElements(int ArraySource[100], int ArrayDestination[100], int Length, int &Length2)
+void CopyOddNumbers(int ArraySource[100], int ArrayDestination[100], int Length, int &Length2)
 {
     for (int i = 0; i < Length; i++)
     {
@@ -69,7 +69,7 @@ int main()
     cout << "\nArray 1 Elements:\n";
     PrintArray(Array, ArrayLength);
 
-    CopyArrayUsingAddArrayElements(
+    CopyOddNumbers(
         Array,
         Array2,
         ArrayLength,
