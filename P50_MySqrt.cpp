@@ -3,14 +3,14 @@
 
 using namespace std;
 
-int MySqrt(float Number)
+double MySqrt(double Number)
 {
     return pow(Number, 0.5);
 }
 
-float ReadNumber()
+double ReadNumber()
 {
-    float Number;
+    double Number;
 
     cout << "Enter Number: ";
     cin >> Number;
@@ -20,7 +20,7 @@ float ReadNumber()
 
 int main()
 {
-    float Number = ReadNumber();
+    double Number = ReadNumber();
 
     cout << "MY Sqrt: " << MySqrt(Number) << endl;
     cout << "C++ Sqrt: " << sqrt(Number) << endl;
