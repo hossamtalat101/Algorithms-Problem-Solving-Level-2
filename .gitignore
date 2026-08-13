@@ -7,3 +7,4 @@ Release/
 *.user
 *.vcxproj.filters
 *.ipch
+.vs/
