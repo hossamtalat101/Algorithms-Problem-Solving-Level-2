@@ -1,1 +1,9 @@
 *.exe
+x64/
+Debug/
+Release/
+*.sdf
+*.suo
+*.user
+*.vcxproj.filters
+*.ipch
